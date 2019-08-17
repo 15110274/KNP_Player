@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
+import 'package:knp_play/photo_album/create_album_view.dart';
 import 'package:knp_play/start/start_view.dart';
 import 'login/login_view.dart';
 import 'package:knp_play/newsfeed/add_post_view.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         cursorColor: Colors.orange,
         primarySwatch: Colors.orange,
       ),
-      home: MainPage(),
+      home: CreateAlbumPage(),
     );
   }
 }
